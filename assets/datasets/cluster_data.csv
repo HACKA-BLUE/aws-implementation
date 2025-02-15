@@ -1,0 +1,12 @@
+
+zone,population,high_containers,near_leisure,near_touristic,low_population
+Tarragona Centro,100000,50,Yes,Yes,No
+Salou,40000,60,Yes,Yes,No
+La Pineda,25000,30,Yes,Yes,Yes
+Reus,90000,45,No,Yes,No
+Cambrils,35000,20,Yes,Yes,Yes
+Vila-seca,15000,10,No,No,Yes
+El Vendrell,20000,25,No,Yes,Yes
+Mont-roig del Camp,8000,5,No,No,Yes
+Cunit,12000,15,Yes,No,Yes
+Reus Industrial,50000,30,No,No,No

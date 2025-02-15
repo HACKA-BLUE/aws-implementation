@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa con Camiones y Contenedores</title>
+
+    <!-- Importar Leaflet.js -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Mapa a pantalla completa */
+        #map {
+            width: 100%;
+            height: 100vh;
+        }
+
+        /* Contenedor del menú */
+        #menu-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            width: 60px;
+            height: 60px;
+            overflow: hidden;
+        }
+
+        /* Mostrar menú completo al hacer hover */
+        #menu-container:hover {
+            width: 200px;
+            height: auto;
+        }
+
+        /* Punto de estado encima del contenedor */
+        .estado-icon {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(8px, -8px);
+            border: 2px solid white;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        /* Hover en el punto de estado */
+        .estado-icon:hover {
+            transform: translate(8px, -8px) scale(1.5);
+        }
+
+        /* Colores del punto de estado */
+        .estado-low { background-color: green; }
+        .estado-medium { background-color: orange; }
+        .estado-high { background-color: red; }
+
+        /* Lista de selección múltiple */
+        #tipo-contenedor {
+            display: none;
+            flex-direction: column;
+            margin-top: 10px;
+        }
+
+        #menu-container:hover #tipo-contenedor {
+            display: flex;
+        }
+
+        #tipo-contenedor label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Menú en la esquina superior derecha -->
+    <div id="menu-container">
+        <div id="menu-capas">
+            <img src="img2/capas.png" alt="Capas" width="50" height="50">
+        </div>
+        <div id="tipo-contenedor">
+            <p><b>Seleccionar tipo:</b></p>
+            <label><input type="checkbox" data-id="0" value="waste" checked> Residuo</label>
+            <label><input type="checkbox" data-id="1" value="cardboard" checked> Cartón</label>
+            <label><input type="checkbox" data-id="2" value="glass" checked> Vidrio</label>
+            <label><input type="checkbox" data-id="3" value="organic" checked> Orgánico</label>
+            <label><input type="checkbox" data-id="4" value="plastic" checked> Plástico</label>
+        </div>
+    </div>
+
+    <!-- Mapa en pantalla completa -->
+    <div id="map"></div>
+
+    <script>
+        const serverURL = "http://localhost:8000";  // Cambia esto por tu servidor real
+
+        var map = L.map('map', {
+            center: [41.1189, 1.2445],
+            zoom: 14,
+            minZoom: 12,
+            maxZoom: 18
+        });
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var camionMarkers = {};  // Almacenar camiones por ID
+        var contenedorMarkers = {};  // Almacenar contenedores por ID
+
+        async function obtenerCamiones() {
+            try {
+                var seleccionados = Array.from(document.querySelectorAll("#tipo-contenedor input:checked"))
+                                        .map(input => input.dataset.id);
+
+                if (seleccionados.length === 0) {
+                    Object.keys(camionMarkers).forEach(id => map.removeLayer(camionMarkers[id]));
+                    camionMarkers = {};
+                    return;
+                }
+
+                const response = await fetch(`${serverURL}/camiones?tipos=${seleccionados.join(",")}`);
+                const data = await response.json();
+
+                let camionesActuales = new Set();
+
+                Object.keys(data).forEach(id => {
+                    camionesActuales.add(id);
+
+                    if (!camionMarkers[id]) {
+                        var camionIcon = L.icon({
+                            iconUrl: `img2/camion-${id}.png`,
+                            iconSize: [50, 50],
+                            iconAnchor: [25, 50],
+                            popupAnchor: [0, -40]
+                        });
+
+                        let marker = L.marker([data[id].lat, data[id].lon], { icon: camionIcon })
+                            .addTo(map)
+                            .bindPopup(`<b>Camión de ${id}</b><br>Recolectando`);
+
+                        camionMarkers[id] = marker;
+                    } else {
+                        camionMarkers[id].setLatLng([data[id].lat, data[id].lon]);
+                    }
+                });
+
+                Object.keys(camionMarkers).forEach(id => {
+                    if (!camionesActuales.has(id)) {
+                        map.removeLayer(camionMarkers[id]);
+                        delete camionMarkers[id];
+                    }
+                });
+
+            } catch (error) {
+                console.error("Error obteniendo los camiones:", error);
+            }
+        }
+
+        async function updateCards() {
+            try {
+                let randid= Math.floor(Math.random() * globalDataLength)
+                //console.log(randid)
+                const response = await fetch(`${serverURL}/update-container?id=${randid}`);
+            }
+            catch (error) {
+                console.error("Error obteniendo los camiones:", error);
+            }
+        }
+
+        let globalDataLength = 0; // Declare globally
+
+        async function obtenerContenedores() {
+            try {
+                var seleccionados = Array.from(document.querySelectorAll("#tipo-contenedor input:checked"))
+                                        .map(input => input.value);
+
+                Object.keys(contenedorMarkers).forEach(id => {
+                    if (!seleccionados.includes(contenedorMarkers[id].tipo)) {
+                        map.removeLayer(contenedorMarkers[id]);
+                        delete contenedorMarkers[id];
+                    }
+                });
+
+                if (seleccionados.length === 0) return;
+
+                const response = await fetch(`${serverURL}/contenedores?tipos=${seleccionados.join(",")}`);
+                const data = await response.json();
+
+                globalDataLength = data.length; // Store length globally
+
+                let contenedoresActuales = new Set();
+
+                data.forEach(contenedor => {
+                    let id = `${contenedor.lat}-${contenedor.lon}`;
+                    contenedoresActuales.add(id);
+
+                    if (!contenedorMarkers[id]) {
+                        if (contenedor.capacidad == "medium")
+                            console.log("ojo")
+                        var contenedorIcon = L.divIcon({
+                            html: `
+                                <div style="position: relative; width: 30px; height: 30px;">
+                                    <img src="img2/${contenedor.tipo}.png" width="30" height="30">
+                                    <div class="estado-icon estado-${contenedor.capacidad}"></div>
+                                </div>
+                            `,
+                            className: "",
+                            iconSize: [30, 30]
+                        });
+
+                        let marker = L.marker([contenedor.lat, contenedor.lon], { icon: contenedorIcon })
+                            .addTo(map)
+                            .bindPopup(`<b>Contenedor de ${contenedor.tipo}</b><br>Estado: ${contenedor.capacidad}`);
+
+                        contenedorMarkers[id] = marker;
+                        contenedorMarkers[id].tipo = contenedor.tipo;
+                    }
+                    else {
+                        map.removeLayer(contenedorMarkers[id]);
+                        var contenedorIcon = L.divIcon({
+                            html: `
+                                <div style="position: relative; width: 30px; height: 30px;">
+                                    <img src="img2/${contenedor.tipo}.png" width="30" height="30">
+                                    <div class="estado-icon estado-${contenedor.capacidad}"></div>
+                                </div>
+                            `,
+                            className: "",
+                            iconSize: [30, 30]
+                        });
+
+                        let marker = L.marker([contenedor.lat, contenedor.lon], { icon: contenedorIcon })
+                            .addTo(map)
+                            .bindPopup(`<b>Contenedor de ${contenedor.tipo}</b><br>Estado: ${contenedor.capacidad}`);
+
+                        contenedorMarkers[id] = marker;
+                        contenedorMarkers[id].tipo = contenedor.tipo;
+                    }
+                });
+
+            } catch (error) {
+                console.error("Error obteniendo los contenedores:", error);
+            }
+        }
+
+        document.querySelectorAll("#tipo-contenedor input").forEach(input => {
+            input.addEventListener("change", () => {
+                obtenerCamiones();
+                obtenerContenedores();
+            });
+        });
+
+        setInterval(obtenerCamiones, 1000);
+        setInterval(obtenerContenedores, 1000);
+        setInterval(updateCards, 100);
+    </script>
+
+</body>
+</html>

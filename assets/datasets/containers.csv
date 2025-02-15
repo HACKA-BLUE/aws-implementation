@@ -1,0 +1,520 @@
+id, address, type, priority, latitude, longitude
+0,pallaresos,waste,high,41.1195,1.2437
+1,rius,waste,medium,41.1202,1.2455
+2,catalunya,waste,low,41.1178,1.2413
+3,av. roma,waste,high,41.117931,1.237763
+4,av. roma 15,waste,low,41.11905611712026,1.2405098466809807
+5,av. roma 11,waste,high,41.11833865014515,1.2409350833890538
+6,av. roma 3,waste,high,41.11875540831514,1.2431130971916053
+7,c marques,waste,medium,41.12101880940439,1.2431661260088185
+8,rambla 14,waste,medium,41.121086206679166,1.2408194830971635
+9,rambla 122,waste,medium,41.11836572762156,1.2464351491509627
+10,rambla 102,waste,medium,41.11784239040874,1.248489300651667
+11,rambla 86,waste,medium,41.116918068544884,1.250654246679414
+12,rambla 56,waste,high,41.11590271047611,1.2526980006502613
+13,rambla 42,waste,high,41.11543931527016,1.2534916853071258
+14,rambla 18,waste,high,41.114839283969424,1.2553192159921756
+15,comite de rius,waste,low,41.11585984361747,1.253699357147027
+16,pallaresos,cardboard,low,41.1195,1.2437
+17,rius,cardboard,medium,41.1202,1.2455
+18,catalunya,cardboard,medium,41.1178,1.2413
+19,av. roma,cardboard,medium,41.117931,1.237763
+20,rambla 15,cardboard,low,41.11905611712026,1.2409350833890538
+21,rambla 11,cardboard,medium,41.11833865014515,1.2409350833890538
+22,rambla 3,cardboard,high,41.11875540831514,1.2431130971916053
+23,c marques,cardboard,high,41.12101880940439,1.2431661260088185
+24,rambla 14,cardboard,high,41.121086206679166,1.2408194830971635
+25,rambla 122,cardboard,low,41.11836572762156,1.2464351491509627
+26,rambla 102,cardboard,medium,41.11784239040874,1.248489300651667
+27,rambla 86,cardboard,medium,41.116918068544884,1.250654246679414
+28,rambla 56,cardboard,high,41.11590271047611,1.2526980006502613
+29,rambla 42,cardboard,low,41.11543931527016,1.2534916853071258
+30,rambla 18,cardboard,low,41.114839283969424,1.2553192159921756
+31,comite de rius,cardboard,high,41.11585984361747,1.253699357147027
+32,pallaresos,glass,high,41.1195,1.2437
+33,rius,glass,high,41.1202,1.2455
+34,catalunya,glass,high,41.1178,1.2413
+35,av. roma,glass,low,41.117931,1.237763
+36,rambla 15,glass,medium,41.11905611712026,1.237763
+37,rambla 11,glass,low,41.11833865014515,1.2409350833890538
+38,rambla 3,glass,low,41.11875540831514,1.2431130971916053
+39,c marques,glass,low,41.12101880940439,1.2431661260088185
+40,rambla 14,glass,low,41.121086206679166,1.2408194830971635
+41,rambla 122,glass,medium,41.11836572762156,1.2464351491509627
+42,rambla 102,glass,medium,41.11784239040874,1.248489300651667
+43,rambla 86,glass,low,41.116918068544884,1.250654246679414
+44,rambla 56,glass,medium,41.11590271047611,1.2526980006502613
+45,rambla 42,glass,medium,41.11543931527016,1.2534916853071258
+46,rambla 18,glass,medium,41.114839283969424,1.2553192159921756
+47,comite de rius,glass,medium,41.11585984361747,1.253699357147027
+50,pallaresos,organic,high,41.1195,1.2437
+51,rius,organic,medium,41.1202,1.2455
+52,catalunya,organic,low,41.1178,1.2413
+53,av. roma,organic,high,41.117931,1.237763
+54,av. roma 15,organic,low,41.11905611712026,1.2405098466809807
+55,av. roma 11,organic,high,41.11833865014515,1.2409350833890538
+56,av. roma 3,organic,high,41.11875540831514,1.2431130971916053
+57,c marques,organic,medium,41.12101880940439,1.2431661260088185
+58,rambla 14,organic,medium,41.121086206679166,1.2408194830971635
+59,rambla 122,organic,medium,41.11836572762156,1.2464351491509627
+60,rambla 102,organic,medium,41.11784239040874,1.248489300651667
+61,rambla 86,organic,medium,41.116918068544884,1.250654246679414
+62,rambla 56,organic,high,41.11590271047611,1.2526980006502613
+63,rambla 42,organic,high,41.11543931527016,1.2534916853071258
+64,rambla 18,organic,high,41.114839283969424,1.2553192159921756
+65,comite de rius,organic,low,41.11585984361747,1.253699357147027
+66,pallaresos,plastic,high,41.1195,1.2437
+67,rius,plastic,medium,41.1202,1.2455
+68,catalunya,plastic,low,41.1178,1.2413
+69,av. roma,plastic,high,41.117931,1.237763
+70,av. roma 15,plastic,low,41.11905611712026,1.2405098466809807
+71,av. roma 11,plastic,high,41.11833865014515,1.2409350833890538
+72,av. roma 3,plastic,high,41.11875540831514,1.2431130971916053
+73,c marques,plastic,medium,41.12101880940439,1.2431661260088185
+74,rambla 14,plastic,medium,41.121086206679166,1.2408194830971635
+75,rambla 122,plastic,medium,41.11836572762156,1.2464351491509627
+76,rambla 102,plastic,medium,41.11784239040874,1.248489300651667
+77,rambla 86,plastic,medium,41.116918068544884,1.250654246679414
+78,rambla 56,plastic,high,41.11590271047611,1.2526980006502613
+79,rambla 42,plastic,high,41.11543931527016,1.2534916853071258
+80,rambla 18,plastic,high,41.114839283969424,1.2553192159921756
+81,comite de rius,plastic,low,41.11585984361747,1.253699357147027
+82,c valencia,waste,high,41.115943785748556,1.2214470690981056
+83,pass palmera,waste,medium,41.116220435955675,1.218529021441318
+84,c montblanc,waste,low,41.11748433434397,1.2181857358171508
+85,c prada,waste,high,41.11895397364877,1.2176928304821888
+86,c tortosa,waste,low,41.12028669579229,1.2172460015599784
+87,c amposta,waste,high,41.119979996899474,1.215840930907179
+88,c gaia,waste,high,41.12064575608738,1.2158458958126606
+89,c sant genilde,waste,medium,41.12035027953307,1.214962141068374
+90,c riu fluvia,waste,medium,41.11965459530584,1.2143117373713863
+91,c prades,waste,medium,41.117953113882294,1.2142135372387488
+92,c riu garona,waste,medium,41.11785208069942,1.2118102780507993
+93,c riu tordera,waste,medium,41.117699879652875,1.2126286231978987
+94,bloc butano,waste,high,41.11598024904816,1.2134208760992347
+95,c riu glorieta,waste,high,41.116258677905996,1.2156529866114536
+96,c montblanc,waste,high,41.11774501368712,1.2179860980603006
+97,c penedes,waste,low,41.11738458171134,1.2191619041108541
+98,c valencia,cardboard,high,41.115943785748556,1.2214470690981056
+99,pass palmera,cardboard,medium,41.116220435955675,1.218529021441318
+100,c montblanc,cardboard,low,41.11748433434397,1.2181857358171508
+101,c prada,cardboard,high,41.11895397364877,1.2176928304821888
+102,c tortosa,cardboard,low,41.12028669579229,1.2172460015599784
+103,c amposta,cardboard,high,41.119979996899474,1.215840930907179
+104,c gaia,cardboard,high,41.12064575608738,1.2158458958126606
+105,c sant genilde,cardboard,medium,41.12035027953307,1.214962141068374
+106,c riu fluvia,cardboard,medium,41.11965459530584,1.2143117373713863
+107,c prades,cardboard,medium,41.117953113882294,1.2142135372387488
+108,c riu garona,cardboard,medium,41.11785208069942,1.2118102780507993
+109,c riu tordera,cardboard,medium,41.117699879652875,1.2126286231978987
+110,bloc butano,cardboard,high,41.11598024904816,1.2134208760992347
+111,c riu glorieta,cardboard,high,41.116258677905996,1.2156529866114536
+112,c montblanc,cardboard,high,41.11774501368712,1.2179860980603006
+113,c penedes,cardboard,low,41.11738458171134,1.2191619041108541
+114,c valencia,glass,high,41.115943785748556,1.2214470690981056
+115,pass palmera,glass,medium,41.116220435955675,1.218529021441318
+116,c montblanc,glass,low,41.11748433434397,1.2181857358171508
+117,c prada,glass,high,41.11895397364877,1.2176928304821888
+118,c tortosa,glass,low,41.12028669579229,1.2172460015599784
+119,c amposta,glass,high,41.119979996899474,1.215840930907179
+120,c gaia,glass,high,41.12064575608738,1.2158458958126606
+121,c sant genilde,glass,medium,41.12035027953307,1.214962141068374
+122,c riu fluvia,glass,medium,41.11965459530584,1.2143117373713863
+123,c prades,glass,medium,41.117953113882294,1.2142135372387488
+124,c riu garona,glass,medium,41.11785208069942,1.2118102780507993
+125,c riu tordera,glass,medium,41.117699879652875,1.2126286231978987
+126,bloc butano,glass,high,41.11598024904816,1.2134208760992347
+127,c riu glorieta,glass,high,41.116258677905996,1.2156529866114536
+128,c montblanc,glass,high,41.11774501368712,1.2179860980603006
+129,c penedes,glass,low,41.11738458171134,1.2191619041108541
+130,c valencia,organic,high,41.115943785748556,1.2214470690981056
+131,pass palmera,organic,medium,41.116220435955675,1.218529021441318
+132,c montblanc,organic,low,41.11748433434397,1.2181857358171508
+133,c prada,organic,high,41.11895397364877,1.2176928304821888
+134,c tortosa,organic,low,41.12028669579229,1.2172460015599784
+135,c amposta,organic,high,41.119979996899474,1.215840930907179
+136,c gaia,organic,high,41.12064575608738,1.2158458958126606
+137,c sant genilde,organic,medium,41.12035027953307,1.214962141068374
+138,c riu fluvia,organic,medium,41.11965459530584,1.2143117373713863
+139,c prades,organic,medium,41.117953113882294,1.2142135372387488
+140,c riu garona,organic,medium,41.11785208069942,1.2118102780507993
+141,c riu tordera,organic,medium,41.117699879652875,1.2126286231978987
+142,bloc butano,organic,high,41.11598024904816,1.2134208760992347
+143,c riu glorieta,organic,high,41.116258677905996,1.2156529866114536
+144,c montblanc,organic,high,41.11774501368712,1.2179860980603006
+145,c penedes,organic,low,41.11738458171134,1.2191619041108541
+146,c valencia,organic,high,41.115943785748556,1.2214470690981056
+147,pass palmera,organic,medium,41.116220435955675,1.218529021441318
+148,c montblanc,organic,low,41.11748433434397,1.2181857358171508
+149,c prada,organic,high,41.11895397364877,1.2176928304821888
+150,c tortosa,organic,low,41.12028669579229,1.2172460015599784
+151,c amposta,organic,high,41.119979996899474,1.215840930907179
+152,c gaia,organic,high,41.12064575608738,1.2158458958126606
+153,c sant genilde,organic,medium,41.12035027953307,1.214962141068374
+154,c riu fluvia,organic,medium,41.11965459530584,1.2143117373713863
+155,c prades,organic,medium,41.117953113882294,1.2142135372387488
+156,c riu garona,organic,medium,41.11785208069942,1.2118102780507993
+157,c riu tordera,organic,medium,41.117699879652875,1.2126286231978987
+158,bloc butano,organic,high,41.11598024904816,1.2134208760992347
+159,c riu glorieta,organic,high,41.116258677905996,1.2156529866114536
+160,c montblanc,organic,high,41.11774501368712,1.2179860980603006
+161,c penedes,organic,low,41.11738458171134,1.2191619041108541
+162,c del comerc,organic,medium,41.11070949390797,1.2516768442665147
+163,c del general conteras,organic,low,41.11142850167762,1.218529021441318
+164,c de Espanya,organic,low,41.11190509514117,1.2534594500416445
+165,c reial,organic,medium,41.1108013485719,1.2493712243742598
+166,,organic,low,41.11120542007463,1.246823779254633
+167,,organic,high,41.110819715502565,1.245568339786579
+168,,organic,high,41.111682955903746,1.2440325596541961
+169,,organic,medium,41.112647200402826,1.243045272344437
+170,,organic,medium,41.10853299191515,1.2495174890035559
+171,,organic,medium,41.111205420052876,1.2540395085276335
+172,,organic,medium,41.113161458357695,1.257172012742553
+173,,organic,medium,41.11325328970436,1.2563431790157185
+174,,organic,high,41.113574698409785,1.2528693903342898
+175,,organic,high,41.1136389799466,1.2500903594788482
+176,,organic,high,41.11499806096826,1.2502000581093617
+177,,organic,low,41.11430934099218,1.2479938976198421
+178,c del comerc,plastic,medium,41.11070949390797,1.2516768442665147
+179,c del general conteras,plastic,low,41.11142850167762,1.218529021441318
+180,c de Espanya,plastic,low,41.11190509514117,1.2534594500416445
+181,c reial,plastic,medium,41.1108013485719,1.2493712243742598
+182,,plastic,low,41.11120542007463,1.246823779254633
+183,,plastic,high,41.110819715502565,1.245568339786579
+184,,plastic,high,41.111682955903746,1.2440325596541961
+185,,plastic,medium,41.112647200402826,1.243045272344437
+186,,plastic,medium,41.10853299191515,1.2495174890035559
+187,,plastic,medium,41.111205420052876,1.2540395085276335
+188,,plastic,medium,41.113161458357695,1.257172012742553
+189,,plastic,medium,41.11325328970436,1.2563431790157185
+190,,plastic,high,41.113574698409785,1.2528693903342898
+191,,plastic,high,41.1136389799466,1.2500903594788482
+192,,plastic,high,41.11499806096826,1.2502000581093617
+193,,plastic,low,41.11430934099218,1.2479938976198421
+194,c del comerc,waste,medium,41.11070949390797,1.2516768442665147
+195,c del general conteras,waste,low,41.11142850167762,1.218529021441318
+196,c de Espanya,waste,low,41.11190509514117,1.2534594500416445
+197,c reial,waste,medium,41.1108013485719,1.2493712243742598
+198,,waste,low,41.11120542007463,1.246823779254633
+199,,waste,high,41.110819715502565,1.245568339786579
+200,,waste,high,41.111682955903746,1.2440325596541961
+201,,waste,medium,41.112647200402826,1.243045272344437
+202,,waste,medium,41.10853299191515,1.2495174890035559
+203,,waste,medium,41.111205420052876,1.2540395085276335
+204,,waste,medium,41.113161458357695,1.257172012742553
+205,,waste,medium,41.11325328970436,1.2563431790157185
+206,,waste,high,41.113574698409785,1.2528693903342898
+207,,waste,high,41.1136389799466,1.2500903594788482
+208,,waste,high,41.11499806096826,1.2502000581093617
+209,,waste,low,41.11430934099218,1.2479938976198421
+210,c del comerc,cardboard,medium,41.11070949390797,1.2516768442665147
+211,c del general conteras,cardboard,low,41.11142850167762,1.218529021441318
+212,c de Espanya,cardboard,low,41.11190509514117,1.2534594500416445
+213,c reial,cardboard,medium,41.1108013485719,1.2493712243742598
+214,,cardboard,low,41.11120542007463,1.246823779254633
+215,,cardboard,high,41.110819715502565,1.245568339786579
+216,,cardboard,high,41.111682955903746,1.2440325596541961
+217,,cardboard,medium,41.112647200402826,1.243045272344437
+218,,cardboard,medium,41.10853299191515,1.2495174890035559
+219,,cardboard,medium,41.111205420052876,1.2540395085276335
+220,,cardboard,medium,41.113161458357695,1.257172012742553
+221,,cardboard,medium,41.11325328970436,1.2563431790157185
+222,,cardboard,high,41.113574698409785,1.2528693903342898
+223,,cardboard,high,41.1136389799466,1.2500903594788482
+224,,cardboard,high,41.11499806096826,1.2502000581093617
+225,,cardboard,low,41.11430934099218,1.2479938976198421
+226,c del comerc,glass,medium,41.11070949390797,1.2516768442665147
+227,c del general conteras,glass,low,41.11142850167762,1.218529021441318
+228,c de Espanya,glass,low,41.11190509514117,1.2534594500416445
+229,c reial,glass,medium,41.1108013485719,1.2493712243742598
+230,,glass,low,41.11120542007463,1.246823779254633
+231,,glass,high,41.110819715502565,1.245568339786579
+232,,glass,high,41.111682955903746,1.2440325596541961
+233,,glass,medium,41.112647200402826,1.243045272344437
+234,,glass,medium,41.10853299191515,1.2495174890035559
+235,,glass,medium,41.111205420052876,1.2540395085276335
+236,,glass,medium,41.113161458357695,1.257172012742553
+237,,glass,medium,41.11325328970436,1.2563431790157185
+238,,glass,high,41.113574698409785,1.2528693903342898
+239,,glass,high,41.1136389799466,1.2500903594788482
+240,,glass,high,41.11499806096826,1.2502000581093617
+241,,glass,low,41.11430934099218,1.2479938976198421
+242,Salou Center,waste,high,41.0730,1.1280
+243,Salou Beach,waste,medium,41.0725,1.1285
+244,Salou North,waste,low,41.0740,1.1290
+245,Salou South,waste,medium,41.0710,1.1270
+246,La Pineda Promenade,cardboard,low,41.0840,1.1350
+247,La Pineda Beach,glass,medium,41.0850,1.1360
+248,La Pineda Market,organic,high,41.0835,1.1345
+249,Tarragona Port,waste,high,41.1190,1.2440
+250,Tarragona Old Town,waste,medium,41.1175,1.2450
+251,Central Tarragona,waste,low,41.1170,1.2460
+252,Tarragona North,cardboard,medium,41.1200,1.2470
+253,Tarragona South,glass,high,41.1150,1.2430
+254,Tarragona East,organic,low,41.1165,1.2480
+255,Tarragona West,plastic,medium,41.1180,1.2420
+256,Cambrils Marina,cardboard,high,41.2060,1.1520
+257,Cambrils Center,glass,medium,41.2070,1.1530
+258,Cambrils East,organic,low,41.2080,1.1540
+259,Cambrils West,plastic,high,41.2050,1.1510
+260,Vila-seca Industrial,waste,medium,41.2000,1.2350
+261,Vila-seca Beach,waste,high,41.2010,1.2360
+262,Vila-seca Center,cardboard,low,41.2020,1.2370
+263,El Vendrell Center,glass,medium,41.2380,1.1650
+264,El Vendrell Beach,organic,high,41.2390,1.1660
+265,Mont-roig del Camp Center,waste,low,41.2410,1.0790
+266,Mont-roig del Camp North,waste,medium,41.2420,1.0800
+267,Mont-roig del Camp West,cardboard,high,41.2400,1.0780
+268,Cunit Center,glass,medium,41.2000,1.1260
+269,Cunit Beach,organic,low,41.1990,1.1250
+270,La Pobla de Mafumet,plastic,high,41.1500,1.2450
+271,Torroja del Priorat,cardboard,medium,41.2000,1.3000
+272,Valls,glass,low,41.2200,1.2700
+273,La Canonja,organic,high,41.2200,1.2600
+274,Sant Pere,plastic,medium,41.2100,1.2500
+275,Reus Center,waste,low,41.1500,1.1080
+276,Reus North,cardboard,high,41.1510,1.1090
+277,Reus South,glass,medium,41.1490,1.1070
+278,Les Borges del Camp,organic,low,41.1770,1.2400
+279,La Nou de Riudoms,plastic,high,41.1800,1.2420
+280,Ulldecona Center,waste,medium,41.3200,1.2280
+281,Ulldecona North,cardboard,low,41.3210,1.2290
+282,Ulldecona South,glass,high,41.3190,1.2270
+283,Vespella de Gaià,organic,medium,41.2520,1.2100
+284,Salou Industrial,waste,low,41.0750,1.1300
+285,La Pineda Industrial,cardboard,high,41.0860,1.1370
+286,Tarragona Riverside,glass,medium,41.1180,1.2445
+287,Cambrils Old Town,organic,low,41.2065,1.1525
+288,Vila-seca Port,plastic,high,41.2025,1.2375
+289,El Vendrell Industrial,waste,medium,41.2405,1.1665
+290,Mont-roig del Camp Beach,cardboard,low,41.2415,1.0795
+291,Cunit Industrial,glass,high,41.1995,1.1255
+292,La Pobla de Mafumet North,organic,medium,41.1510,1.2460
+293,La Pobla de Mafumet South,plastic,low,41.1490,1.2440
+294,Torroja del Priorat East,waste,high,41.2010,1.3010
+295,Valls Industrial,cardboard,medium,41.2210,1.2710
+296,La Canonja West,glass,low,41.2190,1.2590
+297,Sant Pere Industrial,organic,high,41.2110,1.2510
+298,Reus Industrial,plastic,medium,41.1520,1.1100
+299,Les Borges Central,waste,low,41.1780,1.2410
+300,La Nou Industrial,cardboard,high,41.1810,1.2430
+301,Ulldecona Industrial,glass,medium,41.3220,1.2300
+302,Vespella North,organic,low,41.2530,1.2110
+303,Salou North-East,waste,high,41.0745,1.1290
+304,La Pineda West,cardboard,medium,41.0830,1.1340
+305,Tarragona Central,glass,low,41.1175,1.2455
+306,Cambrils South,organic,high,41.2040,1.1540
+307,Vila-seca West,plastic,medium,41.2030,1.2360
+308,El Vendrell North,cardboard,low,41.2370,1.1640
+309,Mont-roig del Camp East,glass,high,41.2425,1.0810
+310,Cunit North,organic,medium,41.2010,1.1270
+311,Tarragona Harbour,plastic,high,41.1160,1.2475
+312,Reus West,waste,medium,41.1480,1.1060
+313,Reus East,cardboard,low,41.1485,1.1075
+314,Reus Industrial North,glass,high,41.1525,1.1095
+315,Reus Industrial South,organic,medium,41.1505,1.1085
+316,Cambrils Harbour,plastic,low,41.2075,1.1535
+317,Salou East,cardboard,high,41.0735,1.1288
+318,La Pineda East,glass,medium,41.0845,1.1358
+319,Vila-seca North,organic,low,41.2035,1.2378
+320,El Vendrell South,plastic,high,41.2395,1.1670
+321,La Pineda Center,waste,high,41.0845,1.1352
+322,La Pineda North,cardboard,medium,41.0855,1.1358
+323,La Pineda South,glass,low,41.0830,1.1340
+324,La Pineda West,organic,high,41.0838,1.1345
+325,La Pineda East,plastic,medium,41.0842,1.1350
+326,La Pineda Industrial,waste,high,41.0860,1.1370
+327,La Pineda Market,cardboard,low,41.0835,1.1345
+328,La Pineda Marina,glass,high,41.0825,1.1360
+329,La Pineda Gardens,organic,medium,41.0832,1.1355
+330,La Pineda University,plastic,low,41.0848,1.1359
+331,La Pineda Park,waste,high,41.0840,1.1350
+332,La Pineda Hospital,cardboard,medium,41.0838,1.1348
+333,La Pineda Sports Center,glass,low,41.0835,1.1353
+334,La Pineda Shopping Mall,organic,high,41.0843,1.1354
+335,La Pineda Old Town,plastic,medium,41.0841,1.1351
+336,Tarragona Central Market,waste,high,41.1178,1.2450
+337,Tarragona University,cardboard,medium,41.1180,1.2445
+338,Tarragona Hospital,glass,low,41.1175,1.2455
+339,Tarragona Stadium,organic,high,41.1185,1.2440
+340,Tarragona Museum,plastic,medium,41.1170,1.2460
+341,Tarragona EcoPark,waste,high,41.1192,1.2465
+342,Reus Cultural Center,cardboard,medium,41.1505,1.1080
+343,Reus Plaza,glass,low,41.1508,1.1072
+344,Cambrils Waterfront,organic,high,41.2080,1.1545
+345,Cambrils Sports Arena,plastic,medium,41.2072,1.1522
+346,Vila-seca Central Park,waste,low,41.2015,1.2372
+347,El Vendrell Art District,cardboard,high,41.2385,1.1655
+348,Mont-roig Innovation Hub,glass,medium,41.2425,1.0805
+349,Cunit Tech Park,organic,low,41.2005,1.1265
+350,La Pobla Riverside,plastic,high,41.1508,1.2458
+351,Torroja del Priorat Vineyard,waste,medium,41.2005,1.3005
+352,Valls Industrial Zone,cardboard,low,41.2205,1.2705
+353,La Canonja Cultural Park,glass,high,41.2205,1.2605
+354,Sant Pere University,organic,medium,41.2105,1.2505
+355,Reus Tech Center,plastic,low,41.1515,1.1095
+356,Les Borges Innovation Center,waste,high,41.1775,1.2405
+357,La Nou Business Park,cardboard,medium,41.1805,1.2425
+358,Ulldecona Cultural Museum,glass,low,41.3205,1.2285
+359,Vespella Sports Complex,organic,high,41.2525,1.2105
+360,Tarragona Seaside,plastic,medium,41.1172,1.2462
+361,Tarragona Innovation District,waste,high,41.1198,1.2470
+362,Tarragona Science Park,cardboard,medium,41.1202,1.2480
+363,Tarragona Business Center,glass,low,41.1189,1.2465
+364,Reus Financial District,organic,high,41.1509,1.1085
+365,Reus Art District,plastic,medium,41.1512,1.1078
+366,Reus Railway Station,waste,low,41.1500,1.1080
+367,Cambrils Resort Area,cardboard,high,41.2082,1.1532
+368,Cambrils Cultural Center,glass,medium,41.2078,1.1528
+369,Cambrils Marina East,organic,low,41.2085,1.1535
+370,Vila-seca Waterfront,plastic,high,41.2022,1.2378
+371,Vila-seca New Town,waste,medium,41.2018,1.2372
+372,El Vendrell New District,cardboard,low,41.2392,1.1662
+373,Mont-roig del Camp New Zone,glass,high,41.2418,1.0798
+374,Cunit South Industrial,organic,medium,41.1992,1.1252
+375,La Pobla de Mafumet Central,plastic,low,41.1502,1.2452
+376,Torroja del Priorat West,waste,high,41.2002,1.3002
+377,Valls Central Market,cardboard,medium,41.2202,1.2702
+378,La Canonja Business Center,glass,low,41.2202,1.2602
+379,Sant Pere Park,organic,high,41.2102,1.2502
+380,Reus Shopping Center,plastic,medium,41.1518,1.1098
+381,Les Borges Industrial Zone,waste,low,41.1778,1.2408
+382,La Nou Technology Park,cardboard,high,41.1808,1.2428
+383,Ulldecona University,glass,medium,41.3208,1.2288
+384,Vespella Arts Center,organic,low,41.2528,1.2108
+385,Tarragona Waterfront Park,plastic,high,41.1178,1.2468
+386,Tarragona City Hall,waste,medium,41.1182,1.2458
+387,Tarragona Central Library,cardboard,low,41.1179,1.2455
+388,Reus Central Station,glass,high,41.1508,1.1088
+389,Reus Sports Complex,organic,medium,41.1510,1.1075
+390,Cambrils Cultural Hub,plastic,low,41.2080,1.1530
+391,Vila-seca Heritage Center,waste,high,41.2020,1.2370
+392,El Vendrell Marina,cardboard,medium,41.2390,1.1660
+393,Mont-roig Historical Quarter,glass,low,41.2410,1.0790
+394,Cunit New Town,organic,high,41.1990,1.1250
+395,La Pobla Modern District,plastic,medium,41.1500,1.2450
+396,Torroja del Priorat Plaza,waste,low,41.2000,1.3000
+397,Valls Riverside,cardboard,high,41.2200,1.2700
+398,La Canonja East,glass,medium,41.2200,1.2600
+399,Sant Pere Cultural Center,organic,low,41.2100,1.2500
+400,Reus East Business Park,plastic,high,41.1510,1.1090
+401,Vila-seca Harbour,waste,high,41.2030,1.2375
+402,Vila-seca Waterfront,cardboard,medium,41.2032,1.2377
+403,Vila-seca North,waste,low,41.2035,1.2380
+404,Vila-seca South,glass,medium,41.2025,1.2365
+405,Vila-seca East,organic,high,41.2028,1.2370
+406,Vila-seca West,plastic,low,41.2038,1.2372
+407,Vila-seca Central Plaza,waste,high,41.2030,1.2370
+408,Vila-seca Cultural Center,cardboard,medium,41.2034,1.2376
+409,Vila-seca University,glass,low,41.2029,1.2373
+410,Vila-seca Industrial Park,organic,high,41.2031,1.2378
+411,Vila-seca Riverside,plastic,medium,41.2033,1.2374
+412,Vila-seca New District,waste,low,41.2036,1.2379
+413,Vila-seca Residential Area 1,waste,high,41.2031,1.2371
+414,Vila-seca Residential Area 2,cardboard,medium,41.2033,1.2373
+415,Vila-seca Residential Area 3,glass,low,41.2035,1.2375
+416,Vila-seca Business District 1,organic,high,41.2032,1.2372
+417,Vila-seca Business District 2,plastic,medium,41.2034,1.2374
+418,Vila-seca Industrial Zone 2,waste,low,41.2036,1.2376
+419,Vila-seca Industrial Zone 3,cardboard,high,41.2037,1.2377
+420,Vila-seca Port Area 2,glass,medium,41.2038,1.2378
+421,Vila-seca Harbor,organic,low,41.2039,1.2379
+422,Vila-seca Marina,plastic,high,41.2040,1.2380
+423,Vila-seca Central Plaza 2,waste,medium,41.2041,1.2381
+424,Vila-seca Cultural Hub 2,cardboard,low,41.2042,1.2382
+425,Vila-seca University 2,glass,high,41.2043,1.2383
+426,Vila-seca Park 2,organic,medium,41.2044,1.2384
+427,Vila-seca Market 2,plastic,low,41.2045,1.2385
+428,Vila-seca Residential Area 4,waste,high,41.2046,1.2386
+429,Vila-seca Residential Area 5,cardboard,medium,41.2047,1.2387
+430,Vila-seca Business District 3,glass,low,41.2048,1.2388
+431,Vila-seca Business District 4,organic,high,41.2049,1.2389
+432,Vila-seca Industrial Zone 4,plastic,medium,41.2050,1.2390
+433,Vila-seca Industrial Zone 5,waste,low,41.2051,1.2391
+434,Vila-seca Port Area 3,cardboard,high,41.2052,1.2392
+435,Vila-seca Port Area 4,glass,medium,41.2053,1.2393
+436,Vila-seca Waterfront Park 2,organic,low,41.2054,1.2394
+437,Vila-seca Cultural Center 3,plastic,high,41.2055,1.2395
+438,Vila-seca University 3,waste,medium,41.2056,1.2396
+439,Vila-seca Shopping Mall 2,cardboard,low,41.2057,1.2397
+440,Vila-seca Health Center,glass,high,41.2058,1.2398
+441,Vila-seca Sports Complex,organic,medium,41.2059,1.2399
+442,Vila-seca Industrial Park 2,plastic,low,41.2060,1.2400
+443,Vila-seca Residential Area 6,waste,high,41.2061,1.2401
+444,Vila-seca Residential Area 7,cardboard,medium,41.2062,1.2402
+445,Vila-seca Business District 5,glass,low,41.2063,1.2403
+446,Vila-seca Business District 6,organic,high,41.2064,1.2404
+447,Vila-seca Market 3,plastic,medium,41.2065,1.2405
+448,Vila-seca Port Area 5,waste,low,41.2066,1.2406
+449,Vila-seca Cultural Hub 4,cardboard,high,41.2067,1.2407
+450,Vila-seca Waterfront 2,glass,medium,41.2068,1.2408
+451,Vila-seca University 4,organic,low,41.2069,1.2409
+452,Vila-seca Industrial Park 3,plastic,high,41.2070,1.2410
+453,Punto A,waste,high,41.08669,1.15690
+454,Punto B,cardboard,medium,41.08680,1.15700
+455,Punto C,glass,low,41.08660,1.15680
+456,Punto D,organic,high,41.08692,1.15712
+457,Punto E,plastic,medium,41.08655,1.15675
+458,Punto F,waste,low,41.08670,1.15718
+459,Punto G,cardboard,high,41.08682,1.15665
+460,Punto H,glass,medium,41.08663,1.15728
+461,Punto I,organic,low,41.08695,1.15655
+462,Punto J,plastic,high,41.08670,1.15742
+463,Punto K,waste,medium,41.08680,1.15670
+464,Punto L,cardboard,low,41.08660,1.15702
+465,Punto M,glass,high,41.08693,1.15720
+466,Punto N,organic,medium,41.08670,1.15682
+467,Punto O,plastic,low,41.08682,1.15730
+468,Punto P,waste,high,41.08695,1.15660
+469,Punto Q,cardboard,medium,41.08670,1.15710
+470,Punto R,glass,low,41.08682,1.15690
+471,Punto S,organic,high,41.08660,1.15722
+472,Punto T,plastic,medium,41.08695,1.15700
+473,Dispersed Punto 1,waste,high,41.08670,1.15690
+474,Dispersed Punto 2,cardboard,medium,41.08666,1.15687
+475,Dispersed Punto 3,glass,low,41.08680,1.15695
+476,Dispersed Punto 4,organic,high,41.08660,1.15682
+477,Dispersed Punto 5,plastic,medium,41.08675,1.15692
+478,Dispersed Punto 6,waste,low,41.08668,1.15688
+479,Dispersed Punto 7,cardboard,high,41.08672,1.15691
+480,Dispersed Punto 8,glass,medium,41.08665,1.15685
+481,Dispersed Punto 9,organic,low,41.08678,1.15694
+482,Dispersed Punto 10,plastic,high,41.08670,1.15690
+483,Dispersed Punto 11,waste,medium,41.08669,1.15689
+484,Dispersed Punto 12,cardboard,low,41.08667,1.15687
+485,Dispersed Punto 13,glass,high,41.08674,1.15692
+486,Dispersed Punto 14,organic,medium,41.08664,1.15684
+487,Dispersed Punto 15,plastic,low,41.08679,1.15695
+488,Dispersed Punto 16,waste,high,41.08671,1.15690
+489,Dispersed Punto 17,cardboard,medium,41.08668,1.15688
+490,Dispersed Punto 18,glass,low,41.08677,1.15693
+491,Dispersed Punto 19,organic,high,41.08663,1.15683
+492,Dispersed Punto 20,plastic,medium,41.08680,1.15696
+493,Dispersed Punto 21,waste,low,41.08666,1.15686
+494,Dispersed Punto 22,cardboard,high,41.08675,1.15691
+495,Dispersed Punto 23,glass,medium,41.08668,1.15688
+496,Dispersed Punto 24,organic,low,41.08670,1.15690
+497,Dispersed Punto 25,plastic,high,41.08677,1.15693
+498,Dispersed Punto 26,waste,medium,41.08664,1.15684
+499,Dispersed Punto 27,cardboard,low,41.08679,1.15695
+500,Dispersed Punto 28,glass,high,41.08672,1.15691
+501,Dispersed Punto 29,organic,medium,41.08667,1.15687
+502,Dispersed Punto 30,plastic,low,41.08673,1.15690
+503,Dispersed Punto 31,waste,high,41.08670,1.15688
+504,Dispersed Punto 32,cardboard,medium,41.08665,1.15685
+505,Dispersed Punto 33,glass,low,41.08678,1.15694
+506,Dispersed Punto 34,organic,high,41.08680,1.15696
+507,Dispersed Punto 35,plastic,medium,41.08666,1.15686
+508,Dispersed Punto 36,waste,low,41.08669,1.15689
+509,Dispersed Punto 37,cardboard,high,41.08672,1.15691
+510,Dispersed Punto 38,glass,medium,41.08675,1.15692
+511,Dispersed Punto 39,organic,low,41.08668,1.15688
+512,Dispersed Punto 40,plastic,high,41.08670,1.15690
+513,Dispersed Punto 41,waste,medium,41.08674,1.15693
+514,Dispersed Punto 42,cardboard,low,41.08664,1.15684
+515,Dispersed Punto 43,glass,high,41.08679,1.15695
+516,Dispersed Punto 44,organic,medium,41.08667,1.15687
+517,Dispersed Punto 45,plastic,low,41.08673,1.15690
+518,Dispersed Punto 46,waste,high,41.08670,1.15688
+519,Dispersed Punto 47,cardboard,medium,41.08668,1.15689
+520,Dispersed Punto 48,glass,low,41.08677,1.15693
